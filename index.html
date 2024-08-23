@@ -1,0 +1,110 @@
+# collection-hub<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #2980b9;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+        .item-details {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .item-details h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #2980b9;
+        }
+        .item-details p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Collection Hub</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Каталог</a>
+        <a href="#">Обмен и продажа</a>
+        <a href="#">Форум</a>
+        <a href="#">Профиль</a>
+    </nav>
+    <div class="container">
+        <h2>Добро пожаловать в Collection Hub!</h2>
+        <p>Это платформа для коллекционеров, где вы можете каталогизировать свои коллекции, обмениваться предметами, продавать их и обсуждать коллекции с другими участниками.</p>
+        <hr>
+        <h2>Моя коллекция</h2>
+        <div class="item">
+            <img src="https://via.placeholder.com/150" alt="Item Image">
+            <div class="item-details">
+                <h2>Название предмета 1</h2>
+                <p>Описание предмета 1. Это может быть информация о происхождении, состоянии и других характеристиках.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/150" alt="Item Image">
+            <div class="item-details">
+                <h2>Название предмета 2</h2>
+                <p>Описание предмета 2. Это может быть информация о происхождении, состоянии и других характеристиках.</p>
+            </div>
+        </div>
+        <!-- Добавляйте больше предметов по аналогии -->
+    </div>
+</body>
+</html>
